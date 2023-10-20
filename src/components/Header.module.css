@@ -1,0 +1,84 @@
+.header {
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.desktopHeader{
+    display: flex;
+    width: 75%;
+    padding: 30px 0px;
+}
+
+.customButton.textProperty{
+    padding-top: 0px;
+    vertical-align: top;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(257, 7%, 63%);
+    margin-top: -4px;
+}
+
+.customButton.textProperty:hover{
+    background: none;
+    color: hsl(260, 8%, 14%);
+}
+
+.customButton.buttonSign{
+    font-size: 18px;
+    background-color: var(--primary);
+    font-weight: 700;
+    margin-left: 14px;
+    padding: 10px 30px;
+    margin-top: -12px;
+}
+
+.customButton.buttonSign:hover{
+    background-color: var(--tertiary);
+}
+
+.menuMargin{
+    margin-top: -10px;
+}
+
+.menuIcon.iconFont{
+    font-size: 2.8rem;
+}
+
+.customButton.textMobile{
+    font-weight: 800;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.customMenu.menuDropDown{
+    background: var(--secondary);
+    left: 30px;
+    right: 30px;
+}
+
+.customDivider.hr{
+    border-color: hsl(257, 7%, 63%);
+    margin: 0px 15px;
+}
+
+.customButton.buttonMobile{
+    font-size: 18px;
+    background: var(--primary);
+    font-weight: 700;
+    width: 100%;
+}
+
+.containerMargin{
+    margin: 30px;
+}
+
+/*For mobile screen of 480 mobile width as given in style-guide*/
+@media (max-width: 480px) {
+    .header{
+        flex-direction: unset;
+        padding: 20px 30px;
+    }
+
+}

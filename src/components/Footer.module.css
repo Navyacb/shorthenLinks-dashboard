@@ -1,0 +1,48 @@
+.footer.footerBackground{
+    background-color: black;
+}
+
+.footer .textContent{
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
+.footer.topAlignment{
+    margin-top: -130px;
+}
+
+.footer.verticalALignFooter{
+    margin: 40px 0px;
+    display:flex
+}
+
+.listContent{
+    list-style: none;
+    padding: 0px;
+    line-height: 1.6rem;
+    color: hsl(260deg 8.62% 28.27%);
+    font-weight: bolder;
+}
+.paddingLeft{
+    padding-left: 80px;
+}
+
+/*For mobile screen of 480 mobile width as given in style-guide*/
+@media (max-width: 480px) {
+    .footer .textContent{
+        text-align: center;
+        margin: 0px;
+        width : 100%
+    }
+    .footer.topAlignment{
+        margin-top: 10px;
+    }
+    .footer.verticalALignFooter{
+        margin: 0px;
+        display:block
+    }
+    .paddingLeft{
+        padding-left: 0px;
+    }
+
+}

@@ -1,0 +1,59 @@
+.heading.fontWeight{
+    font-weight: 700;
+    line-height: 1;
+}
+.dashboard.width{
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.paper{
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+.customButton.button{
+    margin: 20px 0px;
+    font-size: 18px;
+    background-color: var(--primary);
+    font-weight: 700;
+    padding: 10px 35px;
+}
+.customButton.button:hover{
+    background-color: var(--tertiary);
+}
+.gridPadding.alignContainer{
+    padding-top: 60px;
+}
+.descriptionPadding{
+    color:hsl(0, 0%, 75%);
+    padding-right: 90px;
+}
+.workingImg.image{
+    position: relative;
+    height: auto
+}
+.paddingBottom{
+    padding-bottom: 100px;
+}
+
+/*For mobile screen of 480 mobile width as given in style-guide*/
+@media (max-width: 480px) {
+    .mobileDirection.flex{
+        flex-direction: column-reverse;
+    }
+    .gridPadding.alignContainer{
+        text-align: center;
+    }
+    .heading.fontWeight{
+        font-size: 2rem;
+    }
+    .descriptionPadding{
+        padding-right: 0px;
+    }
+    .workingImg.image{
+        width: 165%;
+    }
+}

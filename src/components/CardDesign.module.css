@@ -1,0 +1,29 @@
+.cardImg{
+    background-color: var(--secondary);
+    border-radius:50%;
+    height: 65px;
+    width: 65px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    top: -30px;
+    left: 30px 
+}
+
+.boxPosition{
+    position: relative;
+}
+
+.cardBody{
+    background-color:white;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.10);
+    padding:20px 30px;
+    padding-top:50px; 
+    border-radius:5px;
+}
+
+.cardDescription{
+    color:hsl(0, 0%, 75%);
+    font-size:14px;
+}

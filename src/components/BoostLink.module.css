@@ -1,0 +1,25 @@
+
+.customButton.button{
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: var(--primary);
+    font-weight: 700;
+    padding: 5px 30px;
+}
+.customButton.button:hover{
+    background-color: var(--tertiary);
+}
+
+.paper.backgroundImg{
+    background-image: url('../images/bg-boost-desktop.svg');
+    background-color: var(--secondary);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h5.fontBold{
+    font-weight: bold;
+}

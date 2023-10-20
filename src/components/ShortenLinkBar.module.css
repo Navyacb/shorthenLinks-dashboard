@@ -1,0 +1,119 @@
+.boxBackground{
+    background-image:url('../images//bg-shorten-desktop.svg');
+    background-color: var(--secondary);
+    border-radius: 5px;
+    width: 72%;
+    padding:30px;
+    position: relative;
+    top:-55px
+}
+.textBar{
+    width:80%;
+    border-radius:8px;
+    background-color:white;
+}
+.customizeButton.button{
+    background-color: var(--primary);
+    font-weight:600; 
+    border-radius:8px; 
+    width:18%;
+}
+.customizeButton.button:hover{
+    background: var(--tertiary);
+}
+.shortenBar{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+}
+.error{
+    color:  hsl(0, 87%, 67%);
+}
+.shortenBlock{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.shortenList.grid{
+    position: relative;
+    top: -55px;
+    background-color: white;
+    width: 77%;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 0px 12px;
+    display: flex;
+}
+.shortenLink.text{
+    padding-right: 12px;
+    color: var(--primary);
+}
+.customizeButton.copy{
+    margin: 10px 0px;
+    width: 30%;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.customizeButton.copy:hover{
+    background-color: var(--tertiary);
+}
+.customizeButton.copiedBackground{
+    background-color: var(--secondary);
+}
+.customizeButton.copyBackground{
+    background-color: var(--primary);
+}
+.sharedText{
+    display: flex;
+    align-items: center;
+}
+
+/*For mobile screen of 480 mobile width as given in style-guide*/
+@media (max-width: 480px) {
+    .boxBackground{
+        flex-direction: column;
+        align-items: center;
+    }
+    .textBar{
+        width: 100%;
+    }
+    .customizeButton.button{
+        width: 100%;
+        padding: 14px 16px;
+        margin-top: 15px;
+    }
+    .shortenBar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .error{
+        text-align: center;
+    }
+    .shortenBox{
+        display: flex;
+        flex-direction: column;
+    }
+    .shortenLink.text{
+        text-align: left;
+    }
+    .customizeButton.copy{
+        width: 100%;
+    }
+    .hr{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .shortenGrid{
+        margin-top: -15px;
+    }
+    .wordWrap{
+        overflow: hidden;
+        overflow-wrap: break-word;
+    }
+    .shortenList.grid{
+        width : 86%;
+    }
+}

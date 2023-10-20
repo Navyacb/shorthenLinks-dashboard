@@ -1,0 +1,53 @@
+.boxBackground{
+    background-color: #f0f1f6;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.boxWidth{
+    width: 35%;
+    text-align: center;
+    margin: 10px 0px 50px;
+}
+
+.description{
+    color:hsl(0, 0%, 75%);
+}
+
+.cardBlock{
+    display:flex;
+    width: 77%;
+    position:relative;
+    height:52vh;
+    margin-bottom: 100px;
+}
+
+.stepper{
+    height: 8px;
+    border: none;
+    background-color: var(--primary);
+    width: '100%';
+}
+
+.stepperAlign{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+
+/*For mobile screen of 480 mobile width as given in style-guide*/
+@media (max-width: 480px) {
+    .boxWidth{
+        width: 90%;
+    }
+    .cardBlock{
+        flex-direction: column;
+        height: auto;
+    }
+    .stepperAlign{
+        transform: rotate(90deg);
+        top: 50%;
+    }
+}
